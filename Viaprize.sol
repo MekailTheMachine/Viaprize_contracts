@@ -9,6 +9,7 @@ uint256 voting_time; //this will be the time that the voting period ends
 
 mapping (address => uint256) public funders; //this will be a mapping of the addresses of the funders to the amount of eth they have contributed
 
+mapping (address => uint256) public passportScores; // mapping of user addresses to their Passport score, data will be fed from external source
 
 mapping (address => mapping(uint256 => uint256)) public votes; //this will be a mapping of the addresses of the funders to the amount of votes they have
 
